@@ -5,15 +5,59 @@ Data: 05/09/2025
 Versao: 1
 */
 
-body{
-    background-image: linear-gradient(to left, red 25%, purple 75% );
+body {
+    background-image: linear-gradient(to left, red 25%, purple 75%);
 }
 
-#escola{
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.square-text {
+    /* top, right, bottom, left */
+    margin: 50px 300px 200px 300px;
+    border: solid 10px black;
+    text-align: center;
+    padding: 150px;
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+
+p {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.square-text img {
+    border-radius: 10px;
+    width: 300px;
+    height: 300;
+}
+
+h1 {
+    text-decoration: underline;
     color: white;
-    font-size: 100px;
+    font-size: 35px;
 }
 
-#select{
-    font-size: 100px;
+#escola {
+    color: white;
+    font-size: 15px;
+    font-size: 40px;
+}
+
+#select {
+    background-color: orange;
+    font-size: 15px;
+    padding: 25px;
+    margin: 0 0 0 10px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 100px 0;
 }
