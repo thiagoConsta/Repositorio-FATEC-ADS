@@ -1,0 +1,19 @@
+/*
+Projeto Exemplo
+Programador: Thiago Ribeiro
+Data: 05/09/2025
+Versao: 1
+*/
+
+body{
+    background-image: linear-gradient(to left, red 25%, purple 75% );
+}
+
+#escola{
+    color: white;
+    font-size: 100px;
+}
+
+#select{
+    font-size: 100px;
+}
