@@ -1,0 +1,12 @@
+1 rem, tamanho da fonte definido no html
+
+1 rem = 16px
+2rem = 32px
+0.5 = 8pc
+
+font-weight= é uma propriedade CSS que define a espessura dos caracteres de um texto, 
+variando entre mais finos e mais grossos, como o negrito.
+
+font-weight: normal; /* Parágrafo com peso normal */
+
+font-weight: 700; /* Título em negrito */

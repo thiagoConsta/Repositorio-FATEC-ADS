@@ -1,0 +1,16 @@
+/*
+    Projeo HTML/CSS/PHP
+    E-mail: thiagoribeirodif@gmail.com
+    Versão: 1.0
+    Data: 12/09/2025
+*/
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    font-family: "Bungee", sans-serif;
+    color: black; 
+    font-weight: normal;
+}
