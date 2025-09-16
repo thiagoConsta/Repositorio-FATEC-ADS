@@ -7,4 +7,4 @@ n2 = int(input("Digite o segundo número:"))
 if n1 >= n2:
     print("A ordem crescente é: ",n1,n2)
 else:
-    print("A ordem crescente é: ",n2,n1)
+    print("A ordem crescente é: ",n2,",",n1)
