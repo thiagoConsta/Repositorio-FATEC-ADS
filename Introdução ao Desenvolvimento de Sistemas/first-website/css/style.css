@@ -1,4 +1,4 @@
-/*
+ /*
     Projeo HTML/CSS/PHP
     E-mail: thiagoribeirodif@gmail.com
     Versão: 1.0
@@ -13,4 +13,90 @@ body{
     font-family: "Bungee", sans-serif;
     color: black; 
     font-weight: normal;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.section{
+    padding: 3rem 0 4rem 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.cards{
+    /* flex box alinhamento */
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    /* FLEX - BOX DE ALINHAMENTO DE COUTEUDO */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* ajuste do tamanho */
+    width: 30%;
+    height: 250px;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.card.one{
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.card.two{
+    background-color: rgba(208, 255, 0, 0.363);
+    height: 100px;
+}
+
+.card.three{
+    background-color: rgb(0, 255, 98);
+    height: 100px;
+}
+
+.members{
+    display: flex;
+    justify-content: space-between;
+}
+
+.member{
+    height: 120px;
+    width: 120px;
+    border: radius 50%;
+}
+
+footer{
+    background-color: green;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style-type: none;
+    padding-top: 3rem;
+}
+
+footer ul img{
+    margin: 10px;
+    display: flex;
+}
+
+footer p{
+    padding: 3rem;
+    text-align: center;
+    color: #fff;
 }

@@ -2,7 +2,7 @@
 
 1 rem = 16px
 2rem = 32px
-0.5 = 8pc
+0.5 = 8px
 
 font-weight= é uma propriedade CSS que define a espessura dos caracteres de um texto, 
 variando entre mais finos e mais grossos, como o negrito.
@@ -10,3 +10,61 @@ variando entre mais finos e mais grossos, como o negrito.
 font-weight: normal; /* Parágrafo com peso normal */
 
 font-weight: 700; /* Título em negrito */
+
+---------------------------
+
+Flexbox - Flexible Box Layout
+O que é o Flexbox?
+ 
+O Flexbox (Flexible Box Layout) é um módulo do CSS que facilita a criação de layouts flexíveis e responsivos.
+
+Ele ajuda a alinhar, distribuir e organizar elementos em linha ou em coluna, adaptando-se automaticamente ao espaço disponível.
+ 
+Ativando o Flexbox
+Para usar o Flexbox, você define a propriedade display: flex; no elemento container.
+
+Todos os elementos dentro dele se tornam itens flexíveis.
+ 
+.container {
+  display: flex;
+  background: #f0f0f0;
+}
+.item {
+  background: #4caf50;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+}
+ 
+Principais Propriedades do Container
+ Direção dos itens
+ 
+flex-direction: row;      /* padrão → em linha (da esquerda para direita) */
+flex-direction: row-reverse; /* em linha invertida */
+flex-direction: column;   /* em coluna (de cima para baixo) */
+flex-direction: column-reverse;
+ 
+Alinhamento no eixo principal
+ 
+justify-content: flex-start;   /* alinhado à esquerda (padrão) */
+justify-content: flex-end;     /* alinhado à direita */
+justify-content: center;       /* centralizado */
+justify-content: space-between;/* espaço igual entre os itens */
+justify-content: space-around; /* espaço ao redor dos itens */
+justify-content: space-evenly; /* espaço igual entre todos */
+ 
+Alinhamento no eixo cruzado
+ 
+align-items: stretch;   /* padrão, itens se esticam */
+align-items: flex-start;/* alinhados ao topo */
+align-items: flex-end;  /* alinhados embaixo */
+align-items: center;    /* centralizados */
+align-items: baseline;  /* alinhados pela linha de texto */
+Quebra de linha
+ 
+flex-wrap: nowrap;   /* padrão: todos na mesma linha */
+flex-wrap: wrap;     /* quebra para a próxima linha */
+flex-wrap: wrap-reverse;
+ 
+ 
+ 
