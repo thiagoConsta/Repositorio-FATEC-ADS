@@ -1,0 +1,79 @@
+Algoritmo "semnome"
+ 
+// Disciplina   : Linguagem e Lógica de Programação
+// Descrição    : Programa para registrar pedidos e calcular total da compra
+// Autor(a)     : [Seu nome]
+// Data atual   : 23/09/2025
+ 
+Var
+  nome : caractere
+  cod, quantidade, parada : inteiro
+  preco, total, total_geral : real
+ 
+Inicio
+  total_geral <- 0
+  Escreva("Bem vindo ao ParaLanches, digite seu nome: ")
+  Leia(nome)
+ 
+  parada <- 1
+  enquanto parada <> 0 faca
+ 
+    Escreval("Código 1: Hot dog R$ 11,20")
+    Escreval("Código 2: Hamburguer R$ 16,60")
+    Escreval("Código 3: Cheeseburguer R$ 22,00")
+    Escreval("Código 4: Refrigerante em lata R$ 8,00")
+    Escreval("Código 5: Batatas fritas R$ 32,50")
+    Escreval("Código 6: Misto quente R$ 13,00")
+    Escreval("Código 7: Sucos naturais R$ 8,00")
+ 
+    Escreva("Digite o código do item: ")
+    Leia(cod)
+ 
+    se cod = 1 entao
+      preco <- 11.20
+    senao
+      se cod = 2 entao
+        preco <- 16.60
+      senao
+        se cod = 3 entao
+          preco <- 22.00
+        senao
+          se cod = 4 entao
+            preco <- 8.00
+          senao
+            se cod = 5 entao
+              preco <- 32.50
+            senao
+              se cod = 6 entao
+                preco <- 13.00
+              senao
+                se cod = 7 entao
+                  preco <- 8.00
+                senao
+                  Escreval("Código inválido.")
+                  preco <- 0
+                fimse
+              fimse
+            fimse
+          fimse
+        fimse
+      fimse
+    fimse
+ 
+    se preco > 0 entao
+      Escreva("Digite a quantidade: ")
+      Leia(quantidade)
+ 
+      total <- preco * quantidade
+      total_geral <- total_geral + total
+    fimse
+ 
+    Escreva("Deseja adicionar mais um produto? (Sim=1 / Não=0): ")
+    Leia(parada)
+ 
+  fimEnquanto
+ 
+  Escreval("Nome do cliente: ", nome)
+  Escreval("Total da compra: R$ ", total_geral:5:2)
+ 
+Fimalgoritmo

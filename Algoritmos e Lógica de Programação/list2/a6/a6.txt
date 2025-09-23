@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 23/09/2025
+Var
+// Seção de Declarações das variáveis 
+n1, n2, n3 : real
+mf : real
+ 
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("Por favor, digite a primeira nota: ")
+leia(n1)
+escreva("Por faovr, digite a segunda nota: ")
+leia(n2)
+escreva("Por favor, digite a terceira nota: ")
+leia(n3)
+ 
+mf <- n1 * 0.2 + n2 * 0.3 + n3 * 0.5
+Escreval("A média final é: ", mf)
+ 
+Fimalgoritmo
