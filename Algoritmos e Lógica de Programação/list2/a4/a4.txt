@@ -1,0 +1,48 @@
+Algoritmo "semnome"
+ 
+// Disciplina   : [Linguagem e Lógica de Programação]
+ 
+// Professor   : Antonio Carlos Nicolodi 
+ 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+ 
+// Autor(a)    : Nome do(a) aluno(a)
+ 
+// Data atual  : 23/09/2025
+ 
+Var
+ 
+// Seção de Declarações das variáveis 
+ 
+peso, altura, massa : real
+ 
+ 
+Inicio
+ 
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ 
+Escreva("Por favor, digite seu peso: ")
+ 
+leia(peso)
+ 
+Escreva("Por favor, digite a sua altura: ")
+ 
+leia(altura)
+ 
+ 
+massa <- peso / (altura * altura)
+ 
+escreval("Sua massa é: ", massa)
+ 
+ 
+se massa < 26 entao
+    Escreval("Você está com o peso ideal.")
+  senao
+    se massa < 30 entao
+      Escreval("Você está com obesidade.")
+    senao
+      Escreval("Você está com obesidade mórbida.")
+    fimse
+  fimse
+ 
+Fimalgoritmo
