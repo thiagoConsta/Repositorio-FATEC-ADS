@@ -1,0 +1,2 @@
+Case Sensitive
+Padrão de escrita é importante, pois ele pode mudar de acordo com uma letra maiusculo

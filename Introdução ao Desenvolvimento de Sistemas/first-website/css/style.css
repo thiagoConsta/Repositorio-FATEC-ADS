@@ -1,102 +1,131 @@
- /*
-    Projeo HTML/CSS/PHP
-    E-mail: thiagoribeirodif@gmail.com
-    Versão: 1.0
-    Data: 12/09/2025
-*/
-*{
+* {
     margin: 0;
-    padding: 0;   
+    padding: 0;
+}
+ 
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #444;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input[type='text'],
+input[type='password'],
+select{
+    width: 200px;
+    padding: 0.5rem;
+    border-radius: 30px;
+    border: 1px solid rgb(4, 51, 182)
 }
 
-body{
-    font-family: "Bungee", sans-serif;
-    color: black; 
-    font-weight: normal;
+.logo img{
+    width: 200px;
 }
 
-h1{
+.intro p{
+    margin: 1.5rem 0;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.intro .ctsge{
+    margin: 2rem 0;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+}
+
+.btn:hover{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+}
+
+.primary{
+    background-color: darkmagenta;
+    color: #fff;
+}
+
+.secondary{
+    background-color: brown;
+    color: #fff;
+}
+ 
+h1 {
     font-size: 2rem;
     font-weight: normal;
 }
-
-.section{
+section{
     padding: 3rem 0 4rem 0;
 }
-
 .container{
     max-width: 1000px;
     margin: auto;
     padding: 0 1rem;
 }
-
 .cards{
-    /* flex box alinhamento */
     display: flex;
     justify-content: space-between;
 }
-
 .card{
-    /* FLEX - BOX DE ALINHAMENTO DE COUTEUDO */
+     /* flex box - alinhamento de conteúdo*/
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    /* ajuste do tamanho */
+    cursor: pointer;
+    /* ajuste do tamanho*/
+ 
     width: 30%;
     height: 250px;
+ 
+    /*estilo visual do card e seus elementos*/
+    text-align: center;
+    border-radius: 10px;
     color: #fff;
     font-size: 1.2rem;
-    border-radius: 10px;
 }
-
-.card.one{
-    background-color: blueviolet;
-    height: 100px;
+ 
+.card.yellow{
+    background-color: #000000;
 }
-
-.card.two{
-    background-color: rgba(208, 255, 0, 0.363);
-    height: 100px;
+.card.purple{
+    background-color: #bebb00;
 }
-
-.card.three{
-    background-color: rgb(0, 255, 98);
-    height: 100px;
+.card.green{
+    background-color: #036df7;
 }
-
+ 
 .members{
     display: flex;
     justify-content: space-between;
 }
-
-.member{
+ 
+.member img{
     height: 120px;
     width: 120px;
-    border: radius 50%;
+    border-radius: 50%;
 }
-
+ 
 footer{
-    background-color: green;
+    background-color: #69A9F3;
 }
-
-footer a{
-    color: #fff;
-    text-decoration: none;
-}
-
+ 
 footer ul{
-    list-style-type: none;
-    padding-top: 3rem;
-}
-
-footer ul img{
-    margin: 10px;
     display: flex;
+    justify-content: space-evenly;
+    padding: top 3rem;
+   
 }
-
-footer p{
-    padding: 3rem;
-    text-align: center;
-    color: #fff;
-}
+ 
