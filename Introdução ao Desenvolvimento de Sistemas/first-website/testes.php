@@ -11,7 +11,7 @@
     $num2 = $_GET['num2'];
     $operacao = $_GET['operacao'];
 
-    if($operacao == "soma"){
+    if($operacao == "sum"){
         $resultado = $num1 + $num2;
         echo $resultado;
     }
