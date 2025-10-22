@@ -58,7 +58,61 @@
         </form>
     </div>
 
+    <div class="col-sm-4">
+        <form action="php/exercicio4.php" method="get">
+            <p>Exercicío 4 - Criar um algoritmo que leia o saldo de uma aplicação e imprimir o novo saldo, considerando um reajuste de 15%.</p>
+            <div class="form-group">
+                <label for="saldo">Informe o saldo da sua aplicação para reber um reajuste: </label>
+                <input class="form-control" type="text" name="saldo" id="saldo">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Realizar reajuste">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-sm-4">
+        <form action="php/exercicio5.php" method="get">
+            <p>Exercicío 5 - Criar um algoritmo que receba o salário de um funcionário e o percentual de aumento, calcule e mostre o valor do aumento e o novo salário.</p>
+            <div class="form-group">
+                <label for="salarioAtual">Informe o seu salário: </label>
+                <input class="form-control" type="text" name="salarioAtual" id="salarioAtual">
+            </div>
+            <div class="form-group">
+                <label for="percentualAumento">Informe o seu percentual de aumento: </label>
+                <input class="form-control" type="text" name="percentualAumento" id="percentualAumento">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Calcular novo salário">
+                </div>
+            </div>
+        </form>
+    </div>
+
+        <div class="col-sm-4">
+        <form action="php/exercicio5.php" method="get">
+            <p>Exercicío 6 - Criar um algoritmo que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre: <br> - A idade desta pessoa hoje; <br> - A idade desta pessoa em 2025;</p>
+            <div class="form-group">
+                <label for="idade">Informe a sua idade atualmente: </label>
+                <input class="form-control" type="text" name="idadeNascimento" id="idadeNascimento">
+            </div>
+            <div class="form-group">
+                <label for="anoNascimento">Informe o seu ano de nascimento: </label>
+                <input class="form-control" type="text" name="anoNascimento" id="anoNascimento">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Calcular idade">
+                </div>
+            </div>
+        </form>
+    </div>
+
     
+
 
 
 </div>

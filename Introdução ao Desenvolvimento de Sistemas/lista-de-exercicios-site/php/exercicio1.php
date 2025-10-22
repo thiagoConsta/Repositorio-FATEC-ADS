@@ -1,5 +1,5 @@
 <?php
-$valorX = (int) $_GET['valorX'];
+$valorX = (float) $_GET['valorX'];
 
 $valorY = (3 * $valorX) + 2;
 
