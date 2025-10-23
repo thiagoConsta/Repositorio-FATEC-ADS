@@ -92,12 +92,12 @@
         </form>
     </div>
 
-        <div class="col-sm-4">
-        <form action="php/exercicio5.php" method="get">
+    <div class="col-sm-4">
+        <form action="php/exercicio6.php" method="get">
             <p>Exercicío 6 - Criar um algoritmo que receba o ano de nascimento de uma pessoa e o ano atual, calcule e mostre: <br> - A idade desta pessoa hoje; <br> - A idade desta pessoa em 2025;</p>
             <div class="form-group">
-                <label for="idade">Informe a sua idade atualmente: </label>
-                <input class="form-control" type="text" name="idadeNascimento" id="idadeNascimento">
+                <label for="anoAtual">Informe o ano atualmente: </label>
+                <input class="form-control" type="text" name="anoAtual" id="anoAtual">
             </div>
             <div class="form-group">
                 <label for="anoNascimento">Informe o seu ano de nascimento: </label>
@@ -105,13 +105,148 @@
             </div>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                    <input type="submit" value="Calcular idade">
+                    <input type="submit" value="Calcular">
                 </div>
             </div>
         </form>
     </div>
 
-    
+    <div class="col-sm-4">
+        <form action="php/exercicio7.php" method="get">
+            <p>Exercicío 7 - Criar um algoritmo que converta em minutos e segundos.</p>
+            <div class="form-group">
+                <label for="anoAtual">Informe o tempo em segundos: </label>
+                <input class="form-control" type="text" name="segundos" id="segundos">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Converter">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-sm-4">
+        <form action="php/exercicio8.php" method="get">
+            <p>Exercicío 8 - Criar um algoritmo que dadis dius kadis de um triângulo retÂngulo calcule e exiba a respectiva hipotenusa.</p>
+            <div class="form-group">
+                <label for="c1">Cateto oposto: </label>
+                <input class="form-control" type="text" name="c1" id="c1">
+            </div>
+            <div class="form-group">
+                <label for="c2">Cateto adjacente: </label>
+                <input class="form-control" type="text" name="c2" id="c2">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Calcular hipotenusa">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-sm-4">
+        <form action="php/exercicio9.php" method="get">
+            <p>Exercicío 9 - Criar um algoritmo que receba o npumero de horas trabalhadas e o valor do salário mínimo. Calcule e mostre o salário a receber seguindo as regras do documento que o professor mandou.</p>
+            <div class="form-group">
+                <label for="h">Apresente o número de horas trabalhadas: </label>
+                <input class="form-control" type="text" name="h" id="h">
+            </div>
+            <div class="form-group">
+                <label for="salarioMin">Apresente o salário mínimo: </label>
+                <input class="form-control" type="text" name="salarioMin" id="salarioMin">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Calcular salário a receber">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-sm-4">
+        <form action="php/exercicio10.php" method="get">
+            <p>Exercicío 10 - Pedro comprou um saco de ração em quilos. Pedro possui dois gatos para quais fornece - resto do exercício no documento do professor (...)</p>
+            <div class="form-group">
+                <label for="peso">Coloque o peso do saco da ração: </label>
+                <input class="form-control" type="text" name="peso" id="peso">
+            </div>
+            <div class="form-group">
+                <label for="consumo1">Quantidade fornecidade para gato 1 por dia: </label>
+                <input class="form-control" type="text" name="consumo1" id="consumo1">
+            </div>
+            <div class="form-group">
+                <label for="consumo2">Quantidade fornecidade para gato 2 por dia: </label>
+                <input class="form-control" type="text" name="consumo2" id="consumo2">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Sobra da ração em 5 dias">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-sm-4">
+        <form action="php/exercicio11.php" method="get">
+            <p>Exercicío 11 - Faça um algoritmo que leia as 3 notas de um aluno e calcule a média final deste aluno. Considerar que a média é pondera e que o peso das notas é: 2, 3 e 5, respectivamente.</p>
+            <div class="form-group">
+                <label for="n1">Coloque a primeira nota: </label>
+                <input class="form-control" type="text" name="n1" id="n1">
+            </div>
+            <div class="form-group">
+                <label for="n2">Coloque a segunda nota: </label>
+                <input class="form-control" type="text" name="n2" id="n2">
+            </div>
+            <div class="form-group">
+                <label for="n3">Coloque a terceira nota: </label>
+                <input class="form-control" type="text" name="n3" id="n3">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Calcular média final">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-sm-4">
+        <form action="php/exercicio12.php" method="get">
+            <p>Exercicío 12 - Faça um algoritmo que receba o custo de um espetáculo teatral e o preço do cinte deste espetáculo.</p>
+            <div class="form-group">
+                <label for="custo">Apresente  o custo deste espetáculo: </label>
+                <input class="form-control" type="text" name="custo" id="custo">
+            </div>
+            <div class="form-group">
+                <label for="convite">Apresente o preço dos convites: </label>
+                <input class="form-control" type="text" name="convite" id="convite">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Calcular custo">
+                </div>
+            </div>
+        </form>
+    </div>
+
+        <div class="col-sm-4">
+        <form action="php/exercicio12.php" method="get">
+            <p>Exercicío 13 - Faça um algoritmo que receba o peso de uma pessoa em quilos. <br> Calcule e mostre: <br> a. O novo se a pessoa engordar 15% so</p>
+            <div class="form-group">
+                <label for="custo">Apresente  o custo deste espetáculo: </label>
+                <input class="form-control" type="text" name="custo" id="custo">
+            </div>
+            <div class="form-group">
+                <label for="convite">Apresente o preço dos convites: </label>
+                <input class="form-control" type="text" name="convite" id="convite">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Calcular custo">
+                </div>
+            </div>
+        </form>
+    </div>
 
 
 

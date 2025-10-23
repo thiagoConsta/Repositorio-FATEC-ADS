@@ -1,8 +1,10 @@
 <?php
-$idadeNascimento = $_GET["idade"];
-$anoNascimento = $GET_["anoNascimento"];
+$anoAtual = $_GET["anoAtual"];
+$anoNascimento = $_GET["anoNascimento"];
 
-$idade2025 = $anoNascimento - $idadeNascimento;
-echo "Sua idade atualmente é: " . $idade;
-echo "Sua idade em 2025 é: " . $idade2025;
+$idadeh = $anoAtual - $anoNascimento;
+$idadef = 2025 - $anoNascimento;
+
+echo "Sua idade atualmente é: " . $idadeh . "<br>";
+echo "Em 2025 a você terá: " . $idadef;
 ?>
