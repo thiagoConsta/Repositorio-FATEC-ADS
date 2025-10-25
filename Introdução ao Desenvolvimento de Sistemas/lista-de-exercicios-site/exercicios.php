@@ -1,7 +1,7 @@
 <?php include("php/header.php") ?>
 <div class="jumbotron text-center">
-    <h1>My First Bootstrap Page</h1>
-    <p>Resize this responsive page to see the effect!</p>
+    <h1>Exercícios PHP</h1>
+    <p>Pagina criada para treinar boas práticas e praticar linguagem PHP</p>
 </div>
 
 <div class="row">
@@ -214,7 +214,7 @@
         <form action="php/exercicio12.php" method="get">
             <p>Exercicío 12 - Faça um algoritmo que receba o custo de um espetáculo teatral e o preço do cinte deste espetáculo.</p>
             <div class="form-group">
-                <label for="custo">Apresente  o custo deste espetáculo: </label>
+                <label for="custo">Apresente o custo deste espetáculo: </label>
                 <input class="form-control" type="text" name="custo" id="custo">
             </div>
             <div class="form-group">
@@ -229,20 +229,58 @@
         </form>
     </div>
 
-        <div class="col-sm-4">
-        <form action="php/exercicio12.php" method="get">
-            <p>Exercicío 13 - Faça um algoritmo que receba o peso de uma pessoa em quilos. <br> Calcule e mostre: <br> a. O novo se a pessoa engordar 15% so</p>
+    <div class="col-sm-4">
+        <form action="php/exercicio13.php" method="get">
+            <p>Exercicío 13 - Faça um algoritmo que receba o peso de uma pessoa em quilos. <br> Calcule e mostre: <br> a. O novo se a pessoa engordar 15% sobre o peso digitado. <br> b. O novo peso se a pessoa emagrecer 20% sobre o peso digitado.</p>
             <div class="form-group">
-                <label for="custo">Apresente  o custo deste espetáculo: </label>
-                <input class="form-control" type="text" name="custo" id="custo">
-            </div>
-            <div class="form-group">
-                <label for="convite">Apresente o preço dos convites: </label>
-                <input class="form-control" type="text" name="convite" id="convite">
+                <label for="custo">Digite seu peso em quilos: </label>
+                <input class="form-control" type="text" name="peso" id="peso">
             </div>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                    <input type="submit" value="Calcular custo">
+                    <input type="submit" value="Calcular pesos">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-sm-4">
+        <form action="php/exercicio14.php" method="get">
+            <p>Exercicío 14 - João recebeu seu salário e precisa pagar duas contas que estão atrasadas, como as contas estão atrasadas, João terá que pagar a multa de 2% sobre cada conta. Faça um algoritmo que calcule e mostre o quanto restará do salário do João.</p>
+            <div class="form-group">
+                <label for="salario">Digite seu salário: </label>
+                <input class="form-control" type="text" name="salario" id="salario">
+            </div>
+            <div class="form-group">
+                <label for="conta1">Conta 1: </label>
+                <input class="form-control" type="text" name="conta1" id="conta1">
+            </div>
+            <div class="form-group">
+                <label for="conta2">Conta 2: </label>
+                <input class="form-control" type="text" name="conta2" id="conta2">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Calcular resto salário">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-sm-4">
+        <form action="php/exercicio15.php" method="get">
+            <p>Exercicío 15 - Sabe-se que para iluminar de maneira correta os cômodos de uma casa, para cada metro quadrado, deve-se usar 18W de potência. Faça um algoritmo que receba as duas dimensões de um cômodo (em metros). Calcule e mostre a sua área (em m2) e a potência de iluminação que deverá ser utilizada.</p>
+            <div class="form-group">
+                <label for="largura">Largura: </label>
+                <input class="form-control" type="text" name="largura" id="largura">
+            </div>
+            <div class="form-group">
+                <label for="comprimento">Comprimento: </label>
+                <input class="form-control" type="text" name="comprimento" id="comprimento">
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Calcular potência de iluminação">
                 </div>
             </div>
         </form>
