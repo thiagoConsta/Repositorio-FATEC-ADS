@@ -18,12 +18,5 @@ public class exercise4 {
 
             System.out.println("\nSeu novo salário é : " + salarioNovo);
 
-
-
-
-
-        
-
-
     }
 }
