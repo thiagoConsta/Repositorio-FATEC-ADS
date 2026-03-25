@@ -1,0 +1,32 @@
+
+import java.util.Scanner;
+
+
+
+public class exer8 {
+
+    public static void main(String[] args) throws Exception {
+
+      Scanner sc = new Scanner(System.in);
+
+      System.out.println("Digite as médias escolares das provas: ")
+      
+      System.out.println("Digite o P1: ")
+      double p1 = sc.nextDouble();
+
+      System.out.println("Digite o P2: ")
+      double p2 = sc.nextDouble();
+
+      System.out.println("Digite o P3: ")
+      double p3 = sc.nextDouble();
+
+      double mediaFinal = (p1 * 0.4) + (p2 * 0.4) + (p3 * 0.6);
+
+      System.out.println("Notas das médias: " + p1 + ", " + p2 + ", " + p3 + ".")
+      System.out.println("Média final: " + mediaFinal)
+      
+
+      
+
+    }
+}
